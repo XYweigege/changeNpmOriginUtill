@@ -1,0 +1,32 @@
+{
+  "name": "xmzs",
+  "version": "1.5.1",
+  "description": "mmp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node -e \"try{require('./postinstall')}catch(e){}\"",
+    "start": "mmp"
+  },
+  "keywords": [
+    "nrm",
+    "npm",
+    "cnpm",
+    "yarn"
+  ],
+  "bin": {
+    "mmp": "./src/index.js"
+  },
+  "repository": {
+    "url": "https://github.com/message163/mmp",
+    "type": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^10.0.0",
+    "inquirer": "^8.0.0",
+    "node-http-ping": "^0.3.1"
+  }
+}
